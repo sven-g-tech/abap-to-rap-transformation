@@ -24,3 +24,10 @@ transformation-approach/
 
 - [`transformation-approach/`](./transformation-approach/)  
   Contains the transformation matrix (mapping between classical SAP artifacts and RAP artifacts) and the transformation process (procedure for the systematic application of the matrix).
+
+## License
+
+All rights reserved.
+
+The contents of this repository are provided solely for academic purposes.  
+Any use, reproduction, modification, or distribution is prohibited without prior permission.
