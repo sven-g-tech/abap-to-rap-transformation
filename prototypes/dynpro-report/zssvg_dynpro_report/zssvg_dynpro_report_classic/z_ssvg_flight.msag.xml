@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>Z_SSVG_FLIGHT</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z_SSVG_FLIGHT</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Error when creating flight</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z_SSVG_FLIGHT</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Error when updating flight</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z_SSVG_FLIGHT</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Error when deleting flight</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z_SSVG_FLIGHT</ARBGB>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>No authorization for transaction &amp;1.</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

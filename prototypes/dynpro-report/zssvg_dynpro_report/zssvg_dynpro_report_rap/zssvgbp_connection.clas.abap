@@ -1,0 +1,5 @@
+CLASS zssvgbp_connection DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zssvgr_connection.
+ENDCLASS.
+
+CLASS zssvgbp_connection IMPLEMENTATION.
+ENDCLASS.

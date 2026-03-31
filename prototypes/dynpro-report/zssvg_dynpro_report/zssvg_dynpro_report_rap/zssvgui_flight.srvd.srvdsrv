@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition Flight'
+define service ZSSVGUI_FLIGHT {
+  expose ZSSVGC_Flight;
+}

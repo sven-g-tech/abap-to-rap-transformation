@@ -1,0 +1,27 @@
+managed implementation in class zssvgbp_connection unique;
+strict ( 2 );
+
+define behavior for ZSSVGR_CONNECTION alias Connection
+persistent table /dmo/connection
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+
+  field ( readonly : update ) AirlineID, ConnectionID;
+
+  mapping for /dmo/connection
+    {
+      AirlineID          = carrier_id;
+      ConnectionID       = connection_id;
+      DepartureAirport   = airport_from_id;
+      DestinationAirport = airport_to_id;
+      DepartureTime      = departure_time;
+      ArrivalTime        = arrival_time;
+      Distance           = distance;
+      DistanceUnit       = distance_unit;
+    }
+}

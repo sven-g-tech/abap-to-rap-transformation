@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>Z_SSVG_GENERAL</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>General Messages</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z_SSVG_GENERAL</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>No authorization for transaction &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z_SSVG_GENERAL</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>No flight data available for the given criteria</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z_SSVG_GENERAL</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>No details found for the selected airport</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z_SSVG_GENERAL</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Currency code &amp;1 is not supported for a conversion to EUR</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z_SSVG_GENERAL</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Occupied seats exceed maximum limit</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z_SSVG_GENERAL</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Error during update of the flight</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z_SSVG_GENERAL</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Error during update of the connection</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z_SSVG_GENERAL</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Update successful</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z_SSVG_GENERAL</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Error during delete of the flight</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z_SSVG_GENERAL</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Error during delete of the connection</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z_SSVG_GENERAL</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Delete successful</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z_SSVG_GENERAL</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Unknown Function</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

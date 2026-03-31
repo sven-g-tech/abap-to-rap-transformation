@@ -1,0 +1,8 @@
+interface;
+
+define behavior for ZSSVGI_FLIGHT_OVERBOOKED alias Overbooked
+{
+  use create;
+  use update;
+  use delete;
+}

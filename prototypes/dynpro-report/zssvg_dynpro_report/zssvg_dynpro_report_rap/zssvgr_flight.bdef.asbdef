@@ -1,0 +1,32 @@
+managed implementation in class ZSSVGBP_FLIGHT unique;
+strict ( 2 );
+
+define behavior for ZSSVGR_FLIGHT alias Flight
+persistent table /dmo/flight
+lock master
+authorization master ( instance )
+
+{
+  create;
+  update;
+  delete;
+
+  field ( readonly : update ) AirlineID, ConnectionID, FlightDate;
+
+  action setOccupiedSeats parameter ZSSVGA_FLIGHT_OCCUPIEDSEATS result [1] $self;
+
+  validation validateOccupiedSeats on save { field OccupiedSeats; create; update; }
+
+  mapping for /dmo/flight
+    {
+      AirlineID     = carrier_id;
+      ConnectionID  = connection_id;
+      FlightDate    = flight_date;
+      Price         = price;
+      CurrencyCode  = currency_code;
+      PlaneType     = plane_type_id;
+      MaximumSeats  = seats_max;
+      OccupiedSeats = seats_occupied;
+    }
+
+}

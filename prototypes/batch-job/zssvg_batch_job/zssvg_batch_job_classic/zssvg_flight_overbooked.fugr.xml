@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Flight Overbooked Function Group</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZSSVG_FLIGHT_OVERBOOKEDTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZSSVG_FLIGHT_OVERBOOKED</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZSSVG_FLIGHT_OVERBOOKED</FUNCNAME>
+     <UPDATE_TASK>1</UPDATE_TASK>
+     <SHORT_TEXT>Flight Overbooked Database Operations</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IT_INSERT</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZSSVG_T_FLIGHT_OVERBOOKED</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_UPDATE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZSSVG_T_FLIGHT_OVERBOOKED</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_DELETE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZSSVG_T_FLIGHT_OVERBOOKED</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IT_INSERT</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_UPDATE</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_DELETE</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

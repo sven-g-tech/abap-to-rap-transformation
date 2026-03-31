@@ -1,0 +1,10 @@
+interface;
+
+define behavior for ZSSVGI_FLIGHT alias Flight
+{
+  use create;
+  use update;
+  use delete;
+
+  use action setOccupiedSeats;
+}

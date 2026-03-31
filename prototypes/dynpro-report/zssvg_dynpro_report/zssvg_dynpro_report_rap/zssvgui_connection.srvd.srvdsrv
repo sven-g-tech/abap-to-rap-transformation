@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition Connection'
+define service ZSSVGUI_CONNECTION {
+  expose ZSSVGC_CONNECTION;
+}

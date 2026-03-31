@@ -1,0 +1,28 @@
+managed implementation in class zbp_ssvgr_flight_overbooked unique;
+strict ( 2 );
+
+define behavior for ZSSVGR_FLIGHT_OVERBOOKED alias Overbooked
+persistent table zssvg_flight
+lock master
+authorization master ( instance )
+
+{
+  create;
+  update;
+  delete;
+
+  field ( readonly : update ) AirlineID, ConnectionID, FlightDate;
+
+  determination calculateOverbooking on modify { create; }
+
+  mapping for zssvg_flight
+    {
+      AirlineID        = carrier_id;
+      ConnectionID     = connection_id;
+      FlightDate       = flight_date;
+      BookingRatio     = booking_ratio;
+      IsOverbookedRisk = is_overbooked_risk;
+      IsOverbooked     = is_overbooked;
+    }
+
+}
