@@ -1,6 +1,6 @@
 ### Transformation Matrix
 
-| ID | SAP Artifact | Action | Transformation Steps | Comment |
+| ID | SAP Artifact (Classical) | Action | Transformation Steps (RAP Artifacts) | Comment |
 |----|-------------|--------|----------------------|---------|
 | 1 | DDIC Database Table | Extend | 1. CDS Interface View<br>2. Behavior Definition (Standard Operation)<br>3. Behavior Definition (Type Mapping) | The CDS interface view(s) and the behavior definition must be created initially. |
 | 2 | DDIC Domain | Retain | - | Serves, for example, as the basis for DDIC data elements. |
