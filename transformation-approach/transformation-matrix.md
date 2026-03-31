@@ -1,4 +1,4 @@
-### Final Transformation Matrix (including Comments)
+### Transformation Matrix
 
 | ID | SAP Artifact | Action | Transformation Steps | Comment |
 |----|-------------|--------|----------------------|---------|
