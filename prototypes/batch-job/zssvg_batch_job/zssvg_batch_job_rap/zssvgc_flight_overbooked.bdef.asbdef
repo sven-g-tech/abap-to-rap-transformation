@@ -1,9 +1,0 @@
-projection;
-strict ( 2 );
-
-define behavior for ZSSVGC_FLIGHT_OVERBOOKED alias Overbooked
-{
-  use create;
-  use update;
-  use delete;
-}
